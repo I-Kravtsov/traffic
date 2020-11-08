@@ -1,0 +1,50 @@
+.traffic {
+    position: absolute;
+    top: 20px;
+    right: 100px;
+    width: 50px;
+    height: 150px;
+    background-color: darkgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.traffic__light {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+/* .traffic__light--red {
+    background-color: red;
+}
+.traffic__light--yellow {
+    background-color: yellow;
+}
+.traffic__light--green {
+    background-color: green;
+} */
+
+.background {
+    background-color: blue;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.road {
+    position: absolute;
+    bottom: 0;
+    background-color: black;
+    height: 20px;
+    width: 100%;
+    
+}
+
+.car {
+    position: absolute;
+    width: 300px;
+    bottom: 10px;
+}
